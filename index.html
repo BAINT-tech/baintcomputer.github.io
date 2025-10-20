@@ -1,29 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>baintcomputer.aiops</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BaintComputer AIOPS</title>
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #00ffcc;
+      font-family: "Courier New", monospace;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #00ffc3;
+    }
+    p {
+      color: #00ff99;
+      max-width: 600px;
+    }
+    .terminal {
+      background: rgba(0, 255, 200, 0.1);
+      border: 1px solid #00ffc3;
+      border-radius: 8px;
+      padding: 20px;
+      width: 90%;
+      max-width: 700px;
+      text-align: left;
+      box-shadow: 0 0 20px #00ffc3;
+    }
+    .command {
+      color: #00ffcc;
+    }
+    .output {
+      color: #aaffee;
+    }
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.9em;
+      color: #00ffaa;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to baintcomputer.aiops</h1>
-    <p>Building the next generation of AIOPs technology powered by AI + Web3.</p>
-  </header>
-  <main>
-    <section>
-      <h2>⚙️ AIOPs Backend</h2>
-      <p>Currently in demo phase. API under active development.</p>
-    </section>
-    <section>
-      <h2>💻 Developer Dashboard</h2>
-      <p>Live AI command simulation will be available soon.</p>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 baintcomputer.aiops | Powered by GitHub Pages</p>
-  </footer>
-  <script src="script.js"></script>
+  <div class="terminal">
+    <h1>BaintComputer AIOPS</h1>
+    <p>AI-driven operating system for intelligent automation, control, and precision computing.</p>
+
+    <div class="command">> initializing system...</div>
+    <div class="output">BaintOS v0.1 started successfully ✅</div>
+
+    <div class="command">> connecting to AI node...</div>
+    <div class="output">Node online and synchronized 🔗</div>
+
+    <div class="command">> status</div>
+    <div class="output">All systems operational.</div>
+  </div>
+
+  <footer>⚙️ Built by BaintComputer AIOPS</footer>
 </body>
 </html>
